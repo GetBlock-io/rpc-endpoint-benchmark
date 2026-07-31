@@ -69,6 +69,19 @@ examples/          Example benchmark scenarios
 public-endpoints/  Public RPC endpoint examples for testing
 src/               Optional CLI/source code
 
+## Start here
+
+- [How to benchmark blockchain RPC endpoints](docs/how-to-benchmark-rpc-endpoints.md)
+- [p95 vs p99 RPC latency](docs/p95-vs-p99-rpc-latency.md)
+- [RPC sync lag explained](docs/rpc-sync-lag-explained.md)
+- [RPC rate limits and HTTP 429](docs/rpc-rate-limits-429.md)
+- [eth_getLogs performance](docs/eth-getlogs-performance.md)
+
+## Examples
+
+- [Ethereum RPC benchmark example](examples/ethereum-rpc-benchmark.md)
+- [Solana RPC benchmark example](examples/solana-rpc-benchmark.md)
+
 Coming soon
 Lightweight local CLI benchmark
 EVM benchmark adapter

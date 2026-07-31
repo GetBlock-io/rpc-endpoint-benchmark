@@ -1,0 +1,10 @@
+{
+  "profile": "trading",
+  "family": "evm",
+  "description": "RPC method profile for DEX and trading workloads.",
+  "methods": [
+    { "method": "eth_blockNumber", "weight": 35 },
+    { "method": "eth_call", "weight": 40 },
+    { "method": "eth_getBalance", "weight": 25 }
+  ]
+}

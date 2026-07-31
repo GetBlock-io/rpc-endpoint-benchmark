@@ -1,0 +1,11 @@
+{
+  "id": "nft",
+  "label": "NFT marketplace",
+  "protocolFamily": "evm",
+  "description": "Read-only contract and log traffic for NFT marketplace workloads.",
+  "methods": [
+    { "method": "eth_blockNumber", "weight": 20 },
+    { "method": "eth_call", "weight": 45 },
+    { "method": "eth_getLogs", "weight": 35 }
+  ]
+}

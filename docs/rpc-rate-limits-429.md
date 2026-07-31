@@ -1,30 +1,18 @@
 # RPC rate limits and HTTP 429
 
-HTTP 429 means an RPC endpoint is throttling requests.
+HTTP 429 indicates that an endpoint is throttling requests.
 
-This often happens with public RPC endpoints, free plans, or overloaded infrastructure.
+Rate limiting can appear because of:
 
-## Why rate limits matter
+- public endpoint restrictions;
+- provider plan limits;
+- temporary overload;
+- per-IP limits;
+- burst traffic;
+- method-specific restrictions.
 
-Rate limits can cause:
+The benchmark records HTTP errors and identifies rate-limit-like behavior in its findings.
 
-- failed wallet requests
-- delayed dApp updates
-- broken indexer jobs
-- failed backend workflows
-- unstable user experience during traffic spikes
-
-## What to check
-
-A benchmark should detect:
-
-- HTTP 429 responses
-- timeout spikes
-- method-specific failures
-- burst traffic degradation
-
-## Test rate-limit symptoms
-
-Run a live RPC benchmark:
+Run a reliability benchmark:
 
 https://getblock.io/rpc-benchmark/

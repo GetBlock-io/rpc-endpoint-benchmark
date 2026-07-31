@@ -1,0 +1,12 @@
+{
+  "chain": "ethereum",
+  "network": "mainnet",
+  "warning": "Public endpoints are provided for testing and educational purposes only. They may be rate-limited, unstable, or unavailable.",
+  "endpoints": [
+    {
+      "name": "Ethereum PublicNode",
+      "url": "https://ethereum-rpc.publicnode.com",
+      "notes": "Public Ethereum endpoint. May be rate-limited."
+    }
+  ]
+}

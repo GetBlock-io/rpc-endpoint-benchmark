@@ -1,0 +1,13 @@
+{
+  "id": "general",
+  "label": "General dApp",
+  "protocolFamily": "evm",
+  "description": "Balanced read-only traffic for common dApp workloads.",
+  "methods": [
+    { "method": "eth_chainId", "weight": 10 },
+    { "method": "eth_blockNumber", "weight": 25 },
+    { "method": "eth_getBlockByNumber", "weight": 25 },
+    { "method": "eth_getBalance", "weight": 20 },
+    { "method": "eth_call", "weight": 20 }
+  ]
+}

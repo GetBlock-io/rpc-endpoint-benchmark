@@ -1,0 +1,10 @@
+{
+  "profile": "indexer",
+  "family": "evm",
+  "description": "RPC method profile for indexers and analytics workloads.",
+  "methods": [
+    { "method": "eth_blockNumber", "weight": 30 },
+    { "method": "eth_getBlockByNumber", "weight": 40 },
+    { "method": "eth_getLogs", "weight": 30 }
+  ]
+}

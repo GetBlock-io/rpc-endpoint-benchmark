@@ -1,9 +1,46 @@
 # General dApp RPC benchmark
 
-Use the General dApp profile for a balanced first check of an RPC endpoint.
+General dApps need a balanced RPC endpoint that is fast, reliable, fresh, and compatible with common read methods.
 
-It evaluates a mix of common read-only methods and is useful when an application does not fit one specialized workload.
+This profile is useful when a project does not fit one specific workload category such as wallet, indexer, DEX, or NFT marketplace.
 
-Run the profile:
+## Important signals
 
-https://getblock.io/rpc-benchmark/
+For general dApp workloads, check:
+
+- p50 latency
+- p95 latency
+- p99 latency
+- success rate
+- error rate
+- timeout rate
+- jitter
+- method compatibility
+- chain freshness
+
+## Important methods
+
+Common general dApp EVM methods include:
+
+- `eth_chainId`
+- `eth_blockNumber`
+- `eth_getBlockByNumber`
+- `eth_getBalance`
+- `eth_call`
+
+## What can go wrong
+
+General RPC issues may cause:
+
+- slow page loading
+- failed state reads
+- stale UI data
+- inconsistent user experience
+- timeout errors
+- backend retries
+
+## Run this benchmark
+
+Select the General dApp profile in the live GetBlock RPC Benchmark:
+
+https://getblock.io/rpc-benchmark/?utm_source=github&utm_medium=referral&utm_campaign=rpc_benchmark_repo&utm_content=general_dapp_example

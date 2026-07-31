@@ -1,0 +1,12 @@
+{
+  "chain": "solana",
+  "network": "mainnet",
+  "warning": "Public endpoints are provided for testing and educational purposes only. They may be rate-limited, unstable, or unavailable.",
+  "endpoints": [
+    {
+      "name": "Solana public RPC",
+      "url": "https://api.mainnet-beta.solana.com",
+      "notes": "Public Solana endpoint. May be rate-limited."
+    }
+  ]
+}

@@ -83,5 +83,3 @@ Run the full RPC benchmark:
 
 https://getblock.io/rpc-benchmark/
 
-```text
-Add initial README
